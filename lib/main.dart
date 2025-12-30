@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart'; 
+import 'screens/splash_screen.dart';
 // Hapus import home_screen di sini karena alurnya lewat Splash -> Login -> Home
 
 void main() {

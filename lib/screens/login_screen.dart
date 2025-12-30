@@ -82,7 +82,9 @@ class LoginPage extends StatelessWidget {
                         onTap: () {
                           Navigator.pushReplacement(
                             context,
-                            MaterialPageRoute(builder: (context) => const LMSHomeScreen()),
+                            MaterialPageRoute(
+                              builder: (context) => const LMSHomeScreen(),
+                            ),
                           );
                         },
                         child: Container(
@@ -101,13 +103,17 @@ class LoginPage extends StatelessWidget {
                               ),
                             ],
                           ),
-                          child: const Icon(Icons.arrow_forward, color: Colors.white),
+                          child: const Icon(
+                            Icons.arrow_forward,
+                            color: Colors.white,
+                          ),
                         ),
                       ),
                     ),
 
-                    const SizedBox(height: 40), // Baris ini tidak akan error lagi
-
+                    const SizedBox(
+                      height: 40,
+                    ), // Baris ini tidak akan error lagi
                     // REGISTER
                     Column(
                       children: [
